@@ -4,6 +4,12 @@
 		<meta charset="utf-8" />
 		<title>TinDog</title>
 		<link rel="stylesheet" href="css/styles.css" />
+		<link
+			href="https://fonts.googleapis.com/css?family=Montserrat:400,900|Ubuntu&display=swap"
+			rel="stylesheet"
+		/>
+		<!--FontAwesome-->
+		<script src="https://kit.fontawesome.com/820115b418.js"></script>
 		<!--Boostrap dependency-->
 		<link
 			rel="stylesheet"
@@ -27,21 +33,66 @@
 			crossorigin="anonymous"
 		></script>
 		<!--end dependency-->
+		<link />
 	</head>
 
 	<body>
 		<section id="title">
-			<!-- Nav Bar -->
+			<div class="container-fluid" id="con">
+				<!-- Nav Bar -->
+				<nav class="navbar navbar-expand-lg navbar-dark">
+					<a class="navbar-brand" href="">tindog</a>
+					<button
+						class="navbar-toggler"
+						type="button"
+						data-toggle="collapse"
+						data-target="#navbarTogglerDemo01"
+						aria-controls="navbarTogglerDemo01"
+						aria-expanded="false"
+						aria-label="Toggle navigation"
+					>
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div
+						class="collapse navbar-collapse"
+						id="navbarTogglerDemo01"
+					>
+						<ul class="navbar-nav ml-auto">
+							<li class="navbar-item">
+								<a class="nav-link" href="">Contact</a>
+							</li>
+							<li class="navbar-item">
+								<a class="nav-link" href="">Pricing</a>
+							</li>
+							<li class="navbar-item">
+								<a class="nav-link" href="">Download</a>
+							</li>
+						</ul>
+					</div>
+				</nav>
+				<!-- Title -->
+				<div class="row">
+					<div class="col-lg-6">
+						<h1 class="meet">
+							Meet new and interesting dogs nearby.
+						</h1>
+						<button type="button" class="btn btn-dark btn-lg">
+							<i class="fab fa-apple"></i> Download
+						</button>
 
-			<!-- Title -->
+						<button
+							type="button"
+							class="btn btn-outline-light btn-lg"
+						>
+							<i class="fab fa-google-play"></i>
+							Download
+						</button>
+					</div>
 
-			<div>
-				<h1>Meet new and interesting dogs nearby.</h1>
-				<button type="button">Download</button>
-				<button type="button">Download</button>
-			</div>
-			<div>
-				<img src="images/iphone6.png" alt="iphone-mockup" />
+					<div class="col-lg-6">
+						<img src="images/iphone6.png" alt="iphone-mockup" />
+					</div>
+				</div>
 			</div>
 		</section>
 
@@ -76,7 +127,6 @@
 		<!-- Press -->
 
 		<section id="press">
-			<img src="images/techcrunch.png" alt="tc-logo" />
 			<img src="images/tnw.png" alt="tnw-logo" />
 			<img src="images/bizinsider.png" alt="biz-insider-logo" />
 			<img src="images/mashable.png" alt="mashable-logo" />
