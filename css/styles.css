@@ -8,9 +8,7 @@ body {
 }
 
 #con {
-	padding: 3%;
-	padding-left: 15%;
-	padding-right: 15%;
+	padding: 3% 15% 7%;
 }
 
 .meet {
@@ -46,16 +44,21 @@ body {
 .title-image {
 	width: 60%;
 	transform: rotate(25deg);
+	position: absolute;
+	right: 30%;
 }
 
 #features {
 	padding: 7% 15%;
 	background-color: white;
+	position: relative;
+	z-index: 1;
 }
 
 .feature-box {
 	text-align: center;
 	padding: 5%;
+
 }
 
 h3 {
