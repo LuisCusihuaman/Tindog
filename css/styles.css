@@ -58,7 +58,6 @@ body {
 .feature-box {
 	text-align: center;
 	padding: 5%;
-
 }
 
 h3 {
@@ -108,11 +107,21 @@ h2 {
 	margin: 20px 20px 50px;
 }
 
-#pricing{
+#pricing {
 	padding: 100px;
 }
 
-.pricing-column{
+.pricing-column {
 	padding: 3% 2%;
 	text-align: center;
+}
+
+@media (max-width: 1028px) {
+	#title {
+		text-align: center;
+	}
+	.title-image {
+		position: static;
+		transform: rotate(0);
+	}
 }
